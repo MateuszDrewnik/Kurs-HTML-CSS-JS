@@ -7,7 +7,7 @@ Struktura html:
 </body>
 
 div - pudełko, kontener, zawiera w sobie inne elemety
-Div wstawia się za body, czyli pisze body a potem div. Uzywanie Div jest dobre do grupowania elementow, Roznicy w terminalu moze nie byc ale w kodzie juz tak
+Div wstawia się za body, czyli pisze body a potem div. Uzywanie Div jest dobre do grupowania elementow, Roznicy na stronie moze nie byc ale w kodzie juz tak
 Np. można wstawic <div id="introduction"> to oznacza, że ten pojemnik będzie zawierał wstęp
 <p> - Paragraf
 <em> - krzywy tekst np. <h1><em>tekst</em></h1>

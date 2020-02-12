@@ -2,3 +2,15 @@
 Opis alternatywny jest czytany przez specjalne programy dla osób z problemami wzroku, jako normalny tekst na stronie
 
 Atrybut src służy do określania adresu URL zasobu elementu graficznego
+div class="element" - class jest o do okreslenia wielu elementow
+div id="element" - sluzy do okreslenie JEDNEGO elementu
+
+<input type="text">:
+input - element
+type - atrybut
+"text" - wartość
+
+<br> -break- sluzy do oddzielania np. u mnie na stronie jest pozioma linia 
+
+iedy użyć identyfikatora, a kiedy klasy?
+Jeżeli łapiemy dwa lub więcej elementów w CSS, to siłą rzeczy pozostaje nam użyć klasy (gdyż nadanie tego samego id dwóm lub więcej elementom łamie regułę unikalności identyfikatora - duży błąd!). Jednak co w przypadku, gdy chcemy uchwycić tylko jeden element – skoro możemy użyć zarówno identyfikatora jak i klasy; Źródło: https://miroslawzelent.pl/kurs-css/id-vs-klasa-selektory/

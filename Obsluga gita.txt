@@ -1,0 +1,11 @@
+1.git init
+2.git status
+3.git add . && git commit -m "Nazwa commitu"
+4.git remote add origin https://github.com/MateuszDrewnik/Kurs-HTML-CSS-JS.git
+5.git push -u origin master
+
+1.Zainicjowanie gita
+2.Sprawdzenie jakie pliki sa w folderze
+3.Dodanie wszystkich plikow w folderze i stworzenie commita o tej nazwie
+4.Polaczenie sie z gitem, ze mna
+5.Wypchniecie commita na mojego gita

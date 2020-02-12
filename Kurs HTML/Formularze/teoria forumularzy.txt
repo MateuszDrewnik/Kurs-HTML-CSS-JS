@@ -7,3 +7,15 @@ POST przesyła dane w sposób niezauważalny dla zwykłego użytkownika.
 GET przesyła dane w adresie strony, po znaku ?. Action wskazuje na adres strony, która się otworzy po wysłaniu formularza,
 
 Element <section> stanowi samodzielną sekcję tworzącą dokument HTML, której nie można przedstawić za pomocą bardziej szczegółowej semantycznie sekcji. Używa się go za div, czyli div = section
+
+<input type="text"> - When we create an <input> element with type="text", it renders a text field that users can type into.
+<input type="text" name="username"> dodanie name określa nazwę elementu wejściowego.
+<input type="text" name="username" value="Daisy"> Po dodaniu Daisy, formularz bedzie wypelniony tym imieniem
+
+Do opisu elementów <input> używamy specjalnie przeznaczonego do tego elementu <label> (ang. etykieta). Element ten wypełniamy opisem danego pola.
+np. <label>Cena</label>
+
+<input type="number" name="ilosc" step="1" id="ilosc">
+Step - Określa odstęp między prawidłowymi wartościami w danych wejściowych opartych na liczbach.
+
+https://www.codecademy.com/courses/learn-html/lessons/html-forms/exercises/checkbox-input
