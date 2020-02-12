@@ -1,0 +1,4 @@
+<img src="adres obrazka" alt="opis alternatywny" id="logo">
+Opis alternatywny jest czytany przez specjalne programy dla osób z problemami wzroku, jako normalny tekst na stronie
+
+Atrybut src służy do określania adresu URL zasobu elementu graficznego

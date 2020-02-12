@@ -1,0 +1,19 @@
+<table>
+ <tbody>
+      <tr>
+        <th>Company Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+ </tbody>
+<tr> - table row - wiersz tabeli
+</tr> - table row - 1 tr oznacza 1 wiersz - czyli to poziome
+<td> = table data; może miec atrybut colspan="2" - uzywane w celu zwiększenia rozpiętości poziomej komórki.Atrybut ten przyjmuje wartości liczbowe, tzn. przekazujemy tam jaką rozpiętość kolumnową (czyli w poziomie) ma posiadać dana komórka tabeli.
+
+<th> - table heading - naglowek; moze byc th scope="row" albo ="col
+row - ta wartość wyjaśnia, że ​​nagłówek dotyczy wiersza.
+col - ta wartość wyjaśnia, że ​​nagłówek dotyczy kolumny.
+<td rowspan="2">Work</td>
+<tbody> - tabele mozna oddzielac z pomoca tego
+<thead> - sluzy do (zdjecie2) wyszczególnienia obiektu
+<tfoot> - moze sluzyc jako podsumowanie elementow

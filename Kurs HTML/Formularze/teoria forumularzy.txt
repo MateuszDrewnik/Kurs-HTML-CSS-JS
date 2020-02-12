@@ -1,0 +1,9 @@
+Formularze służą do przekazywania informacji skryptom
+<form action="/example.html" method="POST"> - wysyłanie informacji do "example.html" jako POST request, 
+atrybut "action" definiuja gdzie informacja ma być wysłana, 
+atrybut "method="POST" lub "GET" - 
+POST przesyła dane w sposób niezauważalny dla zwykłego użytkownika.
+
+GET przesyła dane w adresie strony, po znaku ?. Action wskazuje na adres strony, która się otworzy po wysłaniu formularza,
+
+Element <section> stanowi samodzielną sekcję tworzącą dokument HTML, której nie można przedstawić za pomocą bardziej szczegółowej semantycznie sekcji. Używa się go za div, czyli div = section

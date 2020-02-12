@@ -1,0 +1,57 @@
+Struktura html:
+<body>
+	<div>
+		<h1></h1>
+		<p></p>
+</div>
+</body>
+
+div - pudełko, kontener, zawiera w sobie inne elemety
+Div wstawia się za body, czyli pisze body a potem div. Uzywanie Div jest dobre do grupowania elementow, Roznicy w terminalu moze nie byc ale w kodzie juz tak
+Np. można wstawic <div id="introduction"> to oznacza, że ten pojemnik będzie zawierał wstęp
+<p> - Paragraf
+<em> - krzywy tekst np. <h1><em>tekst</em></h1>
+<strong> - wygrubia tekst
+<br><br> - break - dzielenie tekstu
+h1 - duzy napis, h2 mniejszy, h3 itp. do h6
+
+ATRYBUTY:
+<ul> - kropkowanie tekstu
+<li>tekst</li>
+
+<ol> - numerowanie tekstu
+<li>1.tekst</li>
+
+#update - dodanie a href - otworzenie zrodla strony w nowej karcie
+<a href="link strony" target="_blank>
+<img src="image-location.jpg" /> użycie zdjęcia - src -screenshot
+</a>
+
+alt - oznacza alternatywny tekst, powinien byc w opisie zdjęcia czyli:
+<img src="." alt="Pole ziemniaków" />
+Ma też inne zastosowania: z google tlumacz:
+Jeśli obraz nie ładuje się na stronie internetowej, użytkownik może najechać myszką na obszar pierwotnie przeznaczony dla obrazu i przeczytać krótki opis obrazu. Jest to możliwe dzięki opisowi podanemu w atrybucie alt.
+Po dodaniu atrybutu alt oprogramowanie do odczytu ekranu może głośno odczytać opis obrazu niedowidzącemu użytkownikowi.
+***
+Atrybut alt odgrywa również rolę w Search Engine Optimization (SEO), ponieważ wyszukiwarki nie mogą „zobaczyć” obrazów na stronach internetowych podczas przeszukiwania Internetu. Posiadanie opisowych atrybutów alt może poprawić ranking witryny.
+***
+
+<video> - wymaga tagu src oraz otwierajacego i zamykajatego tagu
+<video src="link do filmu" width="" height="" controls>Video not supported</video>
+controls jest od odslugi filmu; Video not supported - napisac w razie gdy przegladarka nie bedzie w stanie obsluzyc filmu
+
+<head> - zawiera metadane strony, są to informacje o stronie, które nie są wyświetlane bezpośrednio na stronie internetowej. Metadane w head to informacje o samej stronie. Wstawia się go przed body
+<title> tag is always inside of the <head>. Wyświetli się to na zdjęcie1*
+<a> - anchor - sluży do dodawania linkow stron np.
+<a href="link" target="_blank">Link do jakiejs strony</a>
+target oznacza otworzenie linku w nowej karcie
+
+
+<a href="link strony">Nazwa odnosnika</a><br /> - br - przeniesienie kolejnego linku na dol
+Plik ./ w ./index.html informuje przeglądarkę, aby szukała pliku w bieżącym folderze.
+
+<li><a href="#introduction">Introduction</a></li> - kiedy uzyjemy #tytul to strona przeniesie nas do pojemnika o nazwe <div id="tytul">
+				CIEKAWOSTKI
+Metadane mogą być wykorzystywane przez inne oprogramowanie (roboty indeksujące, wyszukiwarki, przeglądarki itp.)
+Href - Hypertext REFerence, hyperlink
+<!-- - rozpoczęcie komentarza; "-->" skończenie
